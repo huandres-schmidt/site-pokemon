@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+#quantityInput {
+    padding: 10px 15px;
+    width: 100px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#searchButton:hover {
+    background-color: #ff0000;
+}
+
+.container-principal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pokemon-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.pokemon-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pokemon-img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.pokemon-name {
+    color: #333;
+    margin: 10px 0;
+    text-transform: capitalize;
+    font-size: 1.4em;
+}
+
+.pokemon-type {
+    background-color: #f8f8f8;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 3px;
+    font-size: 0.9em;
+}
+
+.pokemon-id {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+    color: #555;
+}
+
+.error-message {
+    text-align: center;
+    color: #ff0000;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* Cores para os tipos de Pokémon */
+.type-grass { background-color: #78c850; color: white; }
+.type-poison { background-color: #a040a0; color: white; }
+.type-fire { background-color: #f08030; color: white; }
+.type-flying { background-color: #a890f0; color: white; }
+.type-water { background-color: #6890f0; color: white; }
+.type-bug { background-color: #a8b820; color: white; }
+.type-normal { background-color: #a8a878; color: white; }
+.type-electric { background-color: #f8d030; color: black; }
+.type-ground { background-color: #e0c068; color: black; }
+.type-fairy { background-color: #ee99ac; color: black; }
+.type-fighting { background-color: #c03028; color: white; }
+.type-psychic { background-color: #f85888; color: white; }
+.type-rock { background-color: #b8a038; color: white; }
+.type-steel { background-color: #b8b8d0; color: black; }
+.type-ice { background-color: #98d8d8; color: black; }
+.type-ghost { background-color: #705898; color: white; }
+.type-dragon { background-color: #7038f8; color: white; }
+.type-dark { background-color: #705848; color: white; }
